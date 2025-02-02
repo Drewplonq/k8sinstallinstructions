@@ -54,8 +54,9 @@ ip a
 
 # to access kubernetes from external network you need to additionaly set flag with external ip --apiserver-cert-extra-sans=158.160.111.211
 sudo kubeadm init \
-  --apiserver-advertise-address=10.128.0.28 \
-  --pod-network-cidr 10.244.0.0/16
+  --apiserver-advertise-address=10.129.0.28 \
+  --pod-network-cidr 10.244.0.0/16 \
+  --apiserver-cert-extra-sans=158.160.74.124
 
 
 # set default kubeconfig
