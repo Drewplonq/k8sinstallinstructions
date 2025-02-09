@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=FUfVFI0UAgY
+
+
 sudo apt-get update -y
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
